@@ -1,0 +1,28 @@
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(212, 210, 210);
+    color: red;
+}
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.board-el {
+    margin-right: 5%;
+    width: 20%;
+    height: 20%;
+    background-color: rgb(236, 190, 190);
+    border-radius: 20px;
+}
+                                                
+.active {
+    background-image: url(../img/goblin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
